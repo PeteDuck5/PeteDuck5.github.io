@@ -1,0 +1,66 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+} /* this applies to everything */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+} /* this applies to my unordered list */
+        
+        li {
+            display: inline; 
+        }
+        
+        li a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 30px;
+            font-family: sans-serif;
+            background-color: black;
+            float: left;
+            width: 20%;
+            padding-bottom: 1%;
+            padding-top: 1%;
+        } /* this applies to the individual list items */
+        
+        li a:hover {
+            background-color: grey;
+}
+body { 
+    background-size: cover;
+}
+body.home {
+    background-image: url(mathex.jpg);
+    text-decoration-color: white;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family: 'Space Mono', monospace;
+}
+h2 {
+    font-family: 'Concert One', cursive;
+}
+p {
+    font-family: 'Kavoon', cursive;
+    padding: 2%;
+}
+a {
+    font-family: 'Kavoon', cursive;
+}
+.running {
+    float: right;
+    width: 60%;
+}
+.text {
+    float: left;
+    width: 40%;
+}
+.quotes {
+    padding: 3%;
+}
